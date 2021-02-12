@@ -1,0 +1,96 @@
+div.elem-group {
+    margin: 40px 0;
+  }
+  
+  label {
+    color: white;
+
+    display: block;
+    font-family: 'Aleo';
+    padding-bottom: 4px;
+    font-size: 1.25em;
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Aleo';
+    width: 500px;
+    padding: 8px;
+  }
+  
+  textarea {
+    color: white;
+
+    height: 250px;
+  }
+  
+  button {
+    height: 50px;
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Aleo';
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+
+
+h1 {
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQYmrUOh1WNnCMztYfjGsqY4i8tQ1Mv5ZgI-A&usqp=CAU");
+height: 150px;
+font-size: 50px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  background-color: #999;
+    height: 150px;
+    font-size: xx-large;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+
+    button {
+        font-size: xx-large;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black;
+        }
+
+        h2 {
+            font-size: xx-large;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        
+            }
+            textarea {
+                font-size: medium;
+                text-align: start;
+                font-family: Arial, Helvetica, sans-serif;
+                }
+#MePhoto {
+width: 460px;
+height: 500px;
+
+}
+#calculator {
+    width: 460px;
+    height: 500px;
+    
+    }
+
+    #muurtje {
+        width: 460px;
+        height: 500px;
+        
+        }
+#BodyText {
+font-size: 30px;
+    
+    }
