@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Contact</title>
+  <title>Home</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,12 +12,13 @@
   <meta property="og:url" content="">
   <meta property="og:image" content="">
 
-  <link rel="manifest" href="../site.webmanifest">
-  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/login.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -29,26 +30,55 @@
   <div id="mySidebar" class="sidebar">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="../index.html">Home</a>
-    <a href="about.html">About</a>
-    <a><u>Contact</u></a>
+    <a href="../HTML_pages/about.html">About</a>
+    <a><u>Admin login</u></a>
   </div>
-  
+
   <div id="main">
     <button class="openbtn" onclick="openNav()">&#9776;</button>
-    <h2>Contact</h2>
+    <h2></h2>
     <hr>
     <div id="main_header">
-        header
+      
     </div>
     <br>
     <div id="main_source">
-        source
+      <div class="grid">
+
+        <form action="/" method="post" class="form login">
+    
+          <header class="login__header">
+            <h3 class="login__title">Admin Login</h3>
+          </header>
+    
+          <div class="login__body">
+    
+            <div class="form__field">
+              <input type="email" placeholder="Email" required>
+            </div>
+    
+            <div class="form__field">
+              <input type="password" placeholder="Wachtwoord" required>
+            </div>
+    
+          </div>
+    
+          <footer class="login__footer">
+            <input type="submit" value="Login">
+    
+            <p><span class="icon icon--info">?</span><a href="#">Wachtwoord vergeten?</a></p>
+          </footer>
+    
+        </form>
+    
+      </div>
     </div>
     <br>
     <div id="main_footer" style="position: fixed;">
-      © 2021 Thijs Herman, Renzo Heesen, Mauro Troost, en Robin van der Schaaf.
+        © 2021 Thijs Herman, Renzo Heesen, Mauro Troost, en Robin van der Schaaf.
     </div>
   </div>
+
 
   <!-- Add your site or application content here -->
   <script src="../js/vendor/modernizr-3.11.2.min.js"></script>
