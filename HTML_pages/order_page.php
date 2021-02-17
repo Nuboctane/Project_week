@@ -205,6 +205,10 @@ if( count($_POST) > 0 ){
     </div>
   </div>
 </div>
+<br>
+    <div id="main_footer" style="position: fixed;">
+      © 2021 Thijs Herman, Renzo Heesen, Mauro Troost, en Robin van der Schaaf.
+    </div>
 <script src="../js/detail.js"></script>
 </body>
 </html>
