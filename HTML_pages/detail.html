@@ -1,0 +1,107 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tickets kopen</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+<link rel="stylesheet" type="text/css" href="../css/detail.css" >
+<meta name="theme-color" content="#fafafa">
+</head>
+<body>
+  
+  <div id="main">
+    <button class="openbtn" style="float: left;" onclick="openNav()">&#9776;</button>
+    <div id="main_header">
+    </div>
+  <div id="bd">
+  
+    <div id="secondary">
+        <h1 style="font-size: xx-large; text-align: center;" >Bioscoop tickets</h1>
+        <hr>
+        <img id="detail_ticket" style="float: left;" src="../img/cinema.png" class="ticket_icon" height="600" width="600" alt="ticket">
+        <br>
+        <div id="header_details" style="float: right; margin-right: 15% ; font-size: xx-large;">
+          <strong>Ticket bioscoop</strong> <em> Alle Films</em>
+          <div>
+           <ul>
+               <li>
+                  1 film naar keuze
+               </li>
+               <li>
+                  1 medium popcorn 
+               </li>
+               <li>
+                  1 drnakje
+               </li>
+               <li>
+                    1 persoon
+               </li>
+          </ul>
+        <!-- <form method="POST" action="order_page.php"> -->
+          </div>
+              <span >
+                  <select tabindex="number" required name="amount" onchange="changeprice()" id="product_amount" style="float: right; height: 30px; width: 100px;">
+                    <option value="1">x1</option>
+                    <option value="2">x2</option>
+                    <option value="3">x3</option>
+                    <option value="4">x4</option>
+                    <option value="5">x5</option>
+                    <option value="6">x6</option>
+                    <option value="more">more</option>
+                  </select>
+              </span>
+              <span  hidden id="more_amount">
+                  <input inputmode="numeric" style="float: right; height: 30px; width: 100px;" placeholder="7"> 
+              </span>
+              <div style="font-size: small;">price per 1:</div>
+          <div id="price" style="font-size: small;">
+            10
+          </div>
+          <hr>
+          <div  style="font-size: small;"><strong>your total:</strong></div>
+          <div id="total_products_price">
+            10
+          </div>
+          <br>
+          <div id="orderpage_order_button">
+          <button type="submit" onclick="location.href='order_page.php'" style="width: 300px; height: 50px; color:black; text-decoration: none; background-color: darkgreen; box-shadow: 0px;">Place Order</button>
+        <!-- </form> -->
+          </div>
+      </div>
+        <button  onclick="change_img_0()" style="margin-top: 5%;"><img src="../img/cinema.png" class="ticket_icon" height="100" width="100" alt="ticket"></button>
+        <br>
+     
+        <button onclick="change_img_1()"> <img src="../img/cinema1.png" style="float: left;"  class="ticket_icon"  height="100" width="100" alt="ticket"> </button>
+        <br>
+       <button onclick="change_img_2()"> <img src="../img/cinema2.png" style="float: left;" class="ticket_icon" height="100" width="100" alt="ticket"> </button>
+        <br>
+        <button onclick="change_img_3()"> <img src="../img/cinema3.png"  style="float: left;" class="ticket_icon" height="100" width="100" alt="ticket"> </button>  
+    </div>
+</div>
+<div id="doc" class="yui-t1">
+      <!-- Menu -->
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="../index.html">Home</a>
+        <a><u>Product</u></a>
+        <a href="about.html">About</a>
+      </div>
+</div>
+<script src="../js/detail.js"></script>
+<script src="../js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="../js/plugins.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
