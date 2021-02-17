@@ -13,7 +13,8 @@
  <div id="mySidebar" class="sidebar">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="../index.html">Home</a>
-  <a href="HTML_pages/about.html">About</a>
+  <a href="about.html">Contact & About</a>
+  <a href="admin_login.html">Admin login</a>
   <a><u>Product</u></a>
 </div>
   <div id="bd">
