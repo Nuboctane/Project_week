@@ -146,9 +146,87 @@ textarea {
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
+.main {
   transition: margin-left .5s; /* If you want a transition effect */
   padding: 20px;
+}
+
+.main_header {
+  left: 0;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.main_events {
+  text-align: center;
+  width: auto;
+  margin: 0 auto;
+}
+
+.tilecontainer {
+  width: auto;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#tile1 {
+  transform: scale(1);
+  display: inline-block;
+  width: 50%;
+  max-width: 15em;
+  border: 1px solid;
+}
+
+#tile2 {
+  transform: scale(1);
+  display: inline-block;
+  width: 50%;
+  max-width: 15em;
+  border: 1px solid;
+}
+
+#tile3 {
+  transform: scale(1);
+  display: inline-block;
+  width: 50%;
+  max-width: 15em;
+  border: 1px solid;
+}
+
+#tile-thumbnail {
+  position: relative;
+  height: 0;
+  padding-bottom: 60%;
+}
+
+#tile-thumbnail > img {
+  position: absolute;
+  left: -0%;
+  width: 100%;
+  height: 100%;
+}
+
+#tile-title {
+  display: block;
+  margin: 0.25em;
+  color: rgb(32, 32, 32);
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#tile-title:before {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -157,6 +235,26 @@ textarea {
   .sidebar a {font-size: 18px;}
 }
 
+/*Event info pages*/
+
+#event_desc {
+  width: 50%;
+  height: auto;
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+.img_container {
+  width: 300px;
+  height: 262px;
+  display: inline;
+}
+
+.img_container img {
+  width: 30%;
+  height: auto;
+}
 
 /*about page*/
 
